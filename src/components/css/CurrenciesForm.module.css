@@ -1,0 +1,51 @@
+.number-input {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.form-container {
+    display: flex;
+    gap: 50px;
+}
+
+.title-app {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #2f404ac1;
+}
+
+button {
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    align-self: center;
+}
+
+.svg-logo {
+    width: 50px;
+
+
+}
+
+@media(max-width:870px) {
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+
+}
+
+@media(max-width:375px) {
+    .container {
+        padding: 25px;
+    }
+}
